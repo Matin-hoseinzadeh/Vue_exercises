@@ -1,0 +1,26 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vue</title>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+  </head>
+  <body>
+    <div id="Exercise">
+      <!-- The Vue Instance -->
+      <h1>
+        <p>{{ description.value }}</p>
+      </h1>
+      <!-- The Vue Instance -->
+      <!-- Attribute Binding -->
+      <a v-bind:href="Link.href" :title="Title.text">Link</a>
+      <!-- Attribute Binding -->
+      <br />
+      <!-- Conditional Rendering -->
+      <span v-if="inSale">On Sale!</span>
+      <!-- Conditional Rendering -->
+    </div>
+  </body>
+</html>
