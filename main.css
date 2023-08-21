@@ -29,3 +29,27 @@
   height: 40px;
   margin-top: 5px;
 }
+.reviews {
+  order: 1;
+}
+.review-form p input,
+.review-form p textarea{
+  width: 100%;
+}
+.review-form p input[type="submit"] {
+  width: 100px;
+}
+.tab_box {
+  margin-top: 24px;
+}
+.tab {
+  padding: 4px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 16px;
+  border: 1px solid #39b982;
+}
+.activeTab{
+    color: #fff;
+    background-color: #39b982;
+}
